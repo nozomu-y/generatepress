@@ -1,13 +1,18 @@
 ---
-name: Feature requests
-about: Use for features, enhancements, improvements.
+name: 機能追加・修正
+about: 機能の追加・修正のためのIssue
 title: ''
-labels: 'feature'
+labels: 'enhancement'
 ---
 
-### Description
-Describe your feature request.
+## 機能の内容
+<!-- 追加・修正したい機能を詳細に記述して下さい -->
 
----
+## 機能追加・修正の理由
+<!-- その機能を追加・修正したい理由を記述して下さい -->
 
-#### References
+## 修正方針
+<!-- 分かれば記述してください -->
+
+## スクリーンショット
+<!-- あれば -->

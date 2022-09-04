@@ -1,22 +1,22 @@
 ---
-name: Bug reports
-about: Use for bugs, and weird behaviors.
+name: バグ報告
+about: バグ修正のためのIssue
 title: ''
 labels: 'bug'
 ---
 
-### Description
-Describe the bug the best you can.
+## バグの内容
+<!-- 出来る限り詳細にバグの内容を記述してください -->
 
-### Steps to reproduce
+## バグの再現方法
 1. ...
 
-#### Actual behavior
-...
+### 実際の挙動
 
-#### Expected behavior
-...
+### 想定される挙動
 
----
+## 修正方針
+<!-- 分かれば記述してください -->
 
-#### References
+## スクリーンショット
+<!-- あれば -->
