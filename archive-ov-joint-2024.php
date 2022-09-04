@@ -32,7 +32,7 @@ get_header(); ?>
 					 * @hooked generate_archive_title - 10
 					 */
 					// do_action( 'generate_archive_title' );
-					do_action( 'generate_archive_title_ck' );
+					do_action( 'generate_archive_title_ck', 'ov-joint-2024' );
 
 					/**
 					 * generate_before_loop hook.

@@ -89,7 +89,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		 *
 		 * @hooked generate_footer_meta - 10
 		 */
-		do_action( 'generate_after_entry_content' );
+		do_action( 'generate_after_entry_content', 'infra' );
 
 		/**
 		 * generate_after_content hook.
