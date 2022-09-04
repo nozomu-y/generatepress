@@ -82,6 +82,33 @@ if ( ! function_exists( 'generate_setup' ) ) {
 	}
 }
 
+add_filter( 'generate_entry_meta_post_types' , function ($types) {
+    $types[] = 'infra';
+
+    return $types;
+});
+
+add_action( 'generate_after_entry_content' , function () {
+    if ( is_singular( 'infra' ) ) : ?>
+        <footer class="entry-meta">
+            <?php 
+                generate_entry_meta();
+                // generate_content_nav( 'nav-below' );
+            ?>
+        </footer>
+    <?php endif;
+});
+
+add_action( 'generate_archive_title_ck' , function () {
+    if (is_archive( 'infra' )) : ?>
+    <header class="page-header" aria-label="ページ">
+        <h1 class="page-title">
+            <span><?php echo get_post_type_object( 'infra' )->labels->name ?></span>
+        </h1>
+	</header>
+    <?php endif;
+});
+
 /**
  * Get all necessary theme files
  */
